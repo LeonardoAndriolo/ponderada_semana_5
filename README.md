@@ -34,31 +34,35 @@ Utilizamos um sensor de luz LDR para ativar o modo noturno e dois ESP32.
 <img src="assets\montagem_esp32.jpeg" style="width: 50%;"><br>
 <sup> Fonte: Material produzido pelos autores (2024).</sup> </div>
 
-A seguir, apresentamos dois vídeos com os modos programados do sistema: normal e noturno. No primeiro, é possível ver o semáforo funcionando normalmente alternando as cores entre verde, amarelo e vermelhor de acordo com um temporizador. Já no segundo, com baixa luminosidade no sensor, o semáforo muda para o modo noturno piscando amarelo.
+A seguir, apresentamos dois vídeos com os modos programados do sistema: normal e noturno. No primeiro, é possível ver o semáforo funcionando normalmente alternando as cores entre verde, amarelo e vermelhor de acordo com um temporizador. Já no segundo, com baixa luminosidade no sensor (representada ao colocar o dedo sobre o sensor), o semáforo muda para o modo noturno e não mais acende o LED verde, ficando apenas no amarelo.
 
 <div align="center"> <sub> Video 1 —  Modo Normal</sub>
 
-https://github.com/user-attachments/assets/edd727bc-1d86-439b-b633-847e1de8eec5
+https://github.com/user-attachments/assets/cd71df87-66ea-4fab-89a5-2e4d05f4ef0b
 
 <sup> Fonte: Material produzido pelos autores (2024).</sup> </div>
 
 <div align="center"> <sub> Video 2 — Modo Noturno</sub>
 
-https://github.com/user-attachments/assets/7197c12a-6bd5-4f30-be35-d6eb1272bcd5
+https://github.com/user-attachments/assets/0ba769ea-14e7-4069-add1-9c9cc77e7d6d
 
 <sup> Fonte: Material produzido pelos autores (2024).</sup> </div>
 
 ### Interface Online
 
-Nesta parte, nosso objetivo foi desenvolver uma interface online simples e funcional que permitisse:
+Nesta parte, utilizamos uma plataforma desenvolvida por Gabriel Scarpelin (nosso *Tech lead*). Nela, podemos verificar o funcionamento das luzes do semáforo, assim como definir intervalos de ativação dos LEDs. A imagem a seguir representa a plataforma.
 
-- Ajustar o comportamento dos semáforos, incluindo a ativação manual do modo noturno.
-- Visualizar os dados captados pelo sensor LDR em tempo real.
+<div align="center"> <sub> Figura 4 - Interface da Plataforma</sub>
+
+<img src="assets\montagem_esp32.jpeg" style="width: 50%;"><br>
+<sup> Fonte: Material produzido pelos autores (2024).</sup> </div>
+
+O código da plataforma pode ser acessado [aqui](https://github.com/GabrielScarpelinDiniz/plataforma-semaforos/blob/main/README.md).
 
 ## Tecnologias Utilizadas
 
 - **ESP32** para controle dos semáforos;
 - **Sensores LDR** para detecção de veículos;
-- **Plataforma** para centralizar e monitorar os dados;
+- **Plataforma customizada** para centralizar e monitorar os dados;
 - **Interface Web** para visualização do status dos semáforos.
 
