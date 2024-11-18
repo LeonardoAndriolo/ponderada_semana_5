@@ -48,29 +48,17 @@ https://github.com/user-attachments/assets/7197c12a-6bd5-4f30-be35-d6eb1272bcd5
 
 <sup> Fonte: Material produzido pelos autores (2024).</sup> </div>
 
-### Configuração da Interface Online
+### Interface Online
 
 Nesta parte, nosso objetivo foi desenvolver uma interface online simples e funcional que permitisse:
 
 - Ajustar o comportamento dos semáforos, incluindo a ativação manual do modo noturno.
 - Visualizar os dados captados pelo sensor LDR em tempo real.
 
-## Como Executar o Projeto
-
-Para executar o projeto e garantir que todas as funcionalidades fossem implementadas corretamente, seguimos os passos detalhados abaixo com atenção:
-
-1. **Montagem do Hardware**: Montamos os semáforos e conectamos os sensores LDR conforme o esquemático fornecido.
-2. **Programar o Modo Noturno**: Programamos o microcontrolador para alterar o comportamento dos semáforos conforme a detecção de variação de luz.
-3. **Interface Online**: Configuramos a interface online para o controle do sistema.
-
 ## Tecnologias Utilizadas
 
-- **Arduino/ESP32** para controle dos semáforos.
-- **Sensores LDR** para detecção de veículos.
-- **Plataforma** para centralizar e monitorar os dados.
-- **Interface Web** para controle dos semáforos.
-
-## Licença
-
-Este projeto está sob a licença MIT. Consultem o arquivo `LICENSE` para mais informações.
+- **ESP32** para controle dos semáforos;
+- **Sensores LDR** para detecção de veículos;
+- **Plataforma** para centralizar e monitorar os dados;
+- **Interface Web** para visualização do status dos semáforos.
 
