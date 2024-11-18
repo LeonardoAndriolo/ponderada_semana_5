@@ -54,10 +54,10 @@ Nesta parte, utilizamos uma plataforma desenvolvida por Gabriel Scarpelin (nosso
 
 <div align="center"> <sub> Figura 4 - Interface da Plataforma</sub>
 
-<img src="assets\montagem_esp32.jpeg" style="width: 50%;"><br>
+<img src="assets\interface_GS.jpeg" style="width: 50%;"><br>
 <sup> Fonte: Material produzido pelos autores (2024).</sup> </div>
 
-O código da plataforma pode ser acessado [aqui](https://github.com/GabrielScarpelinDiniz/plataforma-semaforos/blob/main/README.md).
+O código da plataforma pode ser acessado [aqui](https://github.com/GabrielScarpelinDiniz/plataforma-semaforos/blob/main/README.md). Também adicionamos os arquivos .ino utilizados para rodar o software nos ESP32.
 
 ## Tecnologias Utilizadas
 
